@@ -1,0 +1,25 @@
+body {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.insta {
+  box-sizing: border-box;
+
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+
+    &_content {
+      width: 33%;
+      margin: 1px;
+
+      &_img {
+        width: 100%;
+        height: 376.625px;
+        object-fit: cover;
+      }
+    }
+  }
+}
